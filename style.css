@@ -8,8 +8,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #868d9d;
-  
-  
 }
 .box p{
   font-size: 80px;
@@ -37,8 +35,21 @@ body {
   background-color: #fff;
   border: 10px solid #8c91a3;
   border-width: 2px;
-  width: 97%;
-  height: 650px;
+  width: 50%;
+  height: 450px;
+  margin: 30px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.alert2 {
+  background-color: #fff;
+  border: 10px solid #8c91a3;
+  border-width: 2px;
+  float: right;
+  width: 30%;
+  height: 450px;
   margin: 30px;
   align-items: center;
   text-align: center;
@@ -50,11 +61,12 @@ body {
   height: 50px;
   /* Centralizar na vertical e na horizontal */
   position: absolute;
-  top: 35%;
-  left: 35%;
+  top: 40%;
+  left: 8%;
   margin: -25px 0 0 -25px; /* aplique margens superior e esquerda negativas para centralizar de verdade o elemento */
-  
 }
+
+
 
 .imgcontainer {
   text-align: center;
@@ -73,54 +85,52 @@ body {
   color: #fff;
   font-weight: 500;
   border-radius: 8px;
-  
 }
 
 .number-slide1 {
   border: 2px solid #8c91a3;
   background-color: #fff;
   color: #000;
-  height: 648px;
-  width: 300px;
+  height: 100px;
+  width: 50px;
 }
 
 .number-slide2 {
   border: 2px solid #8c91a3;
   background-color: #fff;
   color: #000;
-  height: 648px;
-  width: 300px;
-  
+  height: 100px;
+  width: 50px;
 }
 
 .number-slide3 {
   border: 2px solid #8c91a3;
   background-color: #fff;
   color: #000;
-  height: 648px;
-  width: 300px;
+  height: 100px;
+  width: 50px;
 }
 
 .number-slide4 {
   border: 2px solid #8c91a3;
   background-color: #fff;
   color: #000;
-  height: 648px;
-  width: 300px;
+  height: 100px;
+  width: 50px;
 }
 .number-slide5 {
   border: 2px solid #8c91a3;
   background-color: #fff;
   color: #000;
-  height: 648px;
-  width: 300px;
+  height: 100px;
+  width: 50px;
 }
 .number-slide6 {
   border: 2px solid #8c91a3;
   background-color: #fff;
   color: #000;
-  height: 648px;
-  width: 300px;
+  height: 100px;
+  width: 50px;
 
 }
 
