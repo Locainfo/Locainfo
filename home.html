@@ -23,67 +23,76 @@
     <div class="modal-header">
       <span class="close">&times;</span>
       <div>
-              <button onClick="Mycolor()">Change Color</button>
+      <!-- Criar Seção de Botões -->
+      <button onClick="Mycolor()">Change Color</button>
+     
       <script type='text/javascript'>
       function Mycolor() {
       var element = document.getElementById("myID");
       element.style.backgroundColor='#900';
       element.style.color="#fff"
       }
-
-
-</script>
+      </script>
       </div>
     </div>
     <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
+      <div class="box">
+        <select>
+          <option>Option 1</option>
+          <option>Option 2</option>
+          <option>Option 3</option>
+          <option>Option 4</option>
+          <option>Option 5</option>
+        </select>
+      </div>
+
     </div>
     <div class="modal-footer">
-      <h3>Modal Footer</h3>
+    </div>
+    
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+      <button type="button" class="btn btn-primary">Primary</button>
+
     </div>
   </div>
 
 </div>
     </div>
 
-    <div  id="myID" class="alert">
-      <h1>Hospedagem</h1>
-    </div>
     <section class="products">
+      <div   class="alert">
         <section>
-        <div id="my-keen-slider" class="keen-slider">
-          <div class="keen-slider__slide number-slide1">
-              <h1>Hospedagem</h1>
+          <div id="my-keen-slider" class="keen-slider">
+            <div id="myID" class="keen-slider__slide number-slide1">
+                <h1>Hospedagem</h1>
+            </div>
+            <div class="keen-slider__slide number-slide2">
+                <h1>Banco de Dados</h1>
+            </div>
+            <div class="keen-slider__slide number-slide3">
+                <h1>E-mail</h1>
+            </div>
+            <div class="keen-slider__slide number-slide4">
+                <h1>VPS</h1>
+            </div>
+            <div class="keen-slider__slide number-slide5">
+                <h1>Cloud Server</h1>
+            </div>
+            <div class="keen-slider__slide number-slide6">
+                <h1>VPS</h1>
+            </div>
+            <div class="keen-slider__slide number-slide6">
+                <h1>VPS</h1>
+            </div>
           </div>
-          <div class="keen-slider__slide number-slide2">
-              <h1>Banco de Dados</h1>
-          </div>
-          <div class="keen-slider__slide number-slide3">
-              <h1>E-mail</h1>
-          </div>
-          <div class="keen-slider__slide number-slide4">
-              <h1>VPS</h1>
-          </div>
-          <div class="keen-slider__slide number-slide5">
-              <h1>Cloud Server</h1>
-          </div>
-          <div class="keen-slider__slide number-slide6">
-              <h1>VPS</h1>
-          </div>
-          <div class="keen-slider__slide number-slide6">
-              <h1>VPS</h1>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </section>
-   
-
-    
     <div style="text-align:center">
-      <span class="dot"></span> 
-      <span class="dot"></span> 
-      <span class="dot"></span> 
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
     </div>
     <script src="./slide.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/keen-slider@6.6.14/keen-slider.min.js"></script>

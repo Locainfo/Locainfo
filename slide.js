@@ -23,3 +23,5 @@ function Mycolor() {
   element.style.color="#fff"
   }
 
+
+
